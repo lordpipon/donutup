@@ -121,7 +121,7 @@ export function AuthModal() {
                   setUsername(event.target.value);
                   setErrors((current) => ({ ...current, username: undefined }));
                 }}
-                placeholder="spear_and_mace"
+                placeholder="donutfan_01"
                 autoComplete="username"
                 maxLength={18}
                 aria-invalid={Boolean(errors.username)}
